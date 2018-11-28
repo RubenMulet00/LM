@@ -1,5 +1,6 @@
 # LM
 ## Estructura mínima de una web
+```html
 <!DOCTYPE html>
 	<html>
 	<head>
@@ -9,7 +10,7 @@
   
 	</body>
 	</html>
-  
+```
   ## Explica las 3 fromas de usar CSS en  HTML
   //CSS interno
   <style type="text/CSS">
@@ -33,13 +34,13 @@
 </ul>
 </body>
 </html>
-##Com es pot incluir javascript en HTML
+## Com es pot incluir javascript en HTML
  <script type="text/javascript">
             function alerta() {
                 alert('hola mundo!');
-##Quina diferencia hi ha entre una classe i un ID
+## Quina diferencia hi ha entre una classe i un ID
 Que el ID es un elemento unic  i en la classe podem aplicar a mes de una.
-##código para hacer un enlace a otra página y que esta se abra en una nueva ventana
+## Código para hacer un enlace a otra página y que esta se abra en una nueva ventana
 <a>...</a>
 <a href="enlacepagina.html">Enlace a otra página</a
 ##¿Qué son las pseudoclases?, pon ejemplos.
