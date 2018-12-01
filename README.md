@@ -52,6 +52,13 @@
 ## Quina diferencia hi ha entre una classe i un ID  
 
 Que el ID es un elemento unic  i en la classe podem aplicar a mes de una.
+El ID es posa aixi:<div id "unico">Hola</div>
+#unico {
+}
+La classe es posa  aixi:
+<span class="classy">aço es un span<span>ç
+.classy{
+}
 
 ## Código para hacer un enlace a otra página y que esta se abra en una nueva ventana  
 ```html
@@ -68,3 +75,45 @@ Estos se componen de  normal: El seu estat es nromal, visited: Cuan ya hem visit
 cada elemento se representa como una caja rectangular, con su contenido, padding (espacio interior), borde y margen construidos uno sobre otro .
 
 ## Explica que son los selectores de CSS y pon ejemplos  
+Els selectors ens permeten elegir al element o elements als que volem aplicar certes regles de presentació. De este mode podem donar estil a tots els elements HTML que vulgam de la nostra pagina. Hi ha 5 seceltors basics de CSS.
+
+Selectro Universal
+El selector universal es repensenta el *
+```html
+*{
+color: red
+}
+```
+
+Selector de elements, etiquetes o tipos
+El selector de elements selcciona aquells elements que la seua etiqueta HTML coincideix amb el selector.
+```html
+h2{
+color: vermell;
+}
+```
+
+Selector de idenificador
+Es representa amb #
+```html
+#principal {
+color: red;
+}
+Es selecionenn aquells elements que els seus atributs coincideixen en el ID en el selector.
+
+Selector de classe
+Es selecciona en un (.)
+```html
+.principal {
+color:red;
+}
+`` `
+Seleciona els seus elements que el seu atribut classe coincideixen en el selector indicat.
+
+Selector descendent
+El selector descendent es representa concatenant dos selectors seguits.
+`` `html
+.contenedor p{
+color:red;
+}
+Seleciona aquells elements que es troben dins de altres elements.
