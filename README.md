@@ -15,17 +15,34 @@
   
 //CSS interno
 ```html
-<style type="text/CSS">
+<meta charset="utf-8">
+	<title>CSS Interno</title>
+	<style type="text/css">
+		body{
+			background-color: #333;
+			color: white;
+			padding: 50px;
+		}
+	
 ```
 //CSS externo
 ```html
-<link rel="stylesheet" type="text/css" href="index.css" />
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CSS Interno</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+</body>
+</html>
 ```
 //CSS embebido
 ```html
 <p>¡Hola <span style="color:#FF0000">amigo lector</span>!</
 ```
-## Crea una lista sense irdenar amb 5 ingredients d'una recepta de cuina  
+## Crea una lista sense ordenar amb 5 ingredients d'una recepta de cuina  
 ```html
 <!DOCTYPE html>
 <html>
